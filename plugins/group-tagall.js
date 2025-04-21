@@ -4,8 +4,8 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   throw false
   }
   let pesan = args.join` `
-  let oi = `🩵⋆ 𝗘𝗧𝗜𝗤𝗨𝗘𝗧𝗔 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 ⋆${pesan}`
-  let teks = `☁️⋆ 𝗜𝗡𝗧𝗘𝗚𝗥𝗔𝗡𝗧𝗘𝗦 ⨾
+  let oi = `☁️⋆ 𝗜𝗡𝗧𝗘𝗚𝗥𝗔𝗡𝗧𝗘𝗦 ⨾${pesan}`
+  let teks = `🩵⋆ 𝗘𝗧𝗜𝗤𝗨𝗘𝗧𝗔 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 ⋆
   🛍️ 𝗔𝗱𝗾𝘂𝗶𝗲𝗿𝗲 𝗲𝗹 𝗯𝗼𝘁 𝗰𝗼𝗻 ⨾
  ↳ wa.me/+51944026510\n\n ${oi}\n\n`
   for (let mem of participants) {
