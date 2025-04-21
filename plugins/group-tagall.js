@@ -9,7 +9,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   🛍️ 𝗔𝗱𝗾𝘂𝗶𝗲𝗿𝗲 𝗲𝗹 𝗯𝗼𝘁 𝗰𝗼𝗻 ⨾
  ↳ wa.me/+51944026510\n\n ${oi}\n\n`
   for (let mem of participants) {
-  teks += `￫ 🔱 @${mem.id.split('@')[0]}\n`}
+  teks += `↳  @${mem.id.split('@')[0]}\n`}
   teks += `➽ 𝗠𝗨𝗦𝗔 𝗕𝗢𝗧`
   conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
   }
